@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://en.protothema.gr/wp-content/uploads/2015/08/messinia4.jpg');
+    background-size: cover;
+}
+
+#top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+ul.child {
+    display: none;
+    width: 100%!important;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+ul.child>li {
+    margin-top: 10px;
+}
+
+ul.parent>li {
+    padding-top: 10px;
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    background: #747474;
+    color: white;
+    border-right: 2px solid #959595;
+    cursor: pointer;
+}
+
+.hero {
+    padding: 10px;
+    width: 100%;
+    margin-top: 200px;
+}
+
+h1 {
+    font-family: 'Alegreya SC', serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#content {
+    font-family: 'Alegreya SC', serif;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    display: none;
+    cursor: pointer;
+}
+
+#content1 {
+    font-family: 'Alegreya SC', serif;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    display: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#locations {
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+#locList > li {
+    font-family: 'Alegreya SC', serif;
+    text-transform: uppercase;
+    display: none;
+    font-size: 18px;
+    color: white;
+}
